@@ -3,13 +3,35 @@
   <title>Alive System</title>
   <link rel="stylesheet" type="text/css" href="html-files/alive.css">
   <style>
+    p + ul { padding: 0 0 0 1.5em }
   </style>
 </head>
 <body>
+  <div class="container">
+    
+    <h1 class="main">Alive System</h1>
 
-  <h1>Alive System</h1>
+    <div class="name">Dohn Arms</div>
+    
+    <p>
+      The Alive system was created by the Beamline Controls
+      Group of the Advanced Photon Source at Argonne National
+      Laboratory, in order to monitor the EPICS IOCs for which it
+      is responsible.  This monitoring consists mainly of current
+      operational status and boot configuration parameters.
+      Clients access data by connecting with the systems's central
+      server over the network, and there are both command line and
+      web clients.  The system is designed to be a mission-critical
+      component of beamline operations, supporting several hundred
+      IOCs.
+    </p>
 
-  <a href="alive-overview.html">Overview</a>
-  <a href="alive-code.html">Code Design</a>
-  
+    <p>More detailed information is available on these pages.
+    <ul>
+      <li><a href="alive-overview.html">System Overview</a></li>
+      <li><a href="alive-code.html">Code Design</a></li>
+    </ul>
+    </p>
+    
+  </div>
 </body>
